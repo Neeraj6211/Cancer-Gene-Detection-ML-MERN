@@ -13,12 +13,12 @@ const HomeHeroSingleSlide = ({ bg_className}) => {
                   <div className="col-xl-6 col-lg-8 col-md-10">
                      <div className="hero-text">
                         <div className="hero-slider-caption ">
-                           <h5>We are here for your care.</h5>
-                           <h1>Best Care & Better Doctor.</h1>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                           <h5>Cancer gene detection using ML</h5>
+                           <h1> Let's Fight Cancer</h1>
+                           <p>A Platform that will identify cancer causing gene using Machine learning.</p>
                         </div>
                         <div className="hero-slider-btn">
-                           <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Make Appointment</Link>
+                           <Link to="/" className="primary_btn btn-icon ml-0"><span>+</span>Know More</Link>
 
                            <button onClick={() => setIsOpen(true)}
                               className="play-btn popup-video"><i className="fas fa-play"></i></button>

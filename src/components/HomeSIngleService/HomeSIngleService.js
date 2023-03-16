@@ -11,8 +11,9 @@ const HomeSIngleService = ({ icon, title, border_class}) => {
                </div>
                <div className="service-content">
                   <h3><Link to="/servicesDetails">{title}</Link></h3>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                  <Link className="service-link" to="/servicesDetails">Read More</Link>
+                  <p>A full stack website and integrate it with the Machine learning algorithm which will detect the various
+                     mutations in the genes that may cause different types of cancer to the patient.</p>
+                  {/* <Link className="service-link" to="/servicesDetails">Read More</Link> */}
                </div>
             </div>
          </div>

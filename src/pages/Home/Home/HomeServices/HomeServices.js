@@ -13,8 +13,8 @@ const HomeServices = () => {
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel home_ser_title">
-                           <h5>Departments</h5>
-                           <h1>Managed Your Heathcare Services</h1>
+                           <h5>Purpose</h5>
+                           <h1>Life is there even with Cancer</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt=""/>
@@ -24,12 +24,12 @@ const HomeServices = () => {
                </div>
                <div className="row">
 
-                  <HomeSIngleService icon="1" title="Body Surgery" />
-                  <HomeSIngleService icon="2" title="Dental Care" />
-                  <HomeSIngleService icon="3" title="service-content" />
-                  <HomeSIngleService icon="4" title="Blood Cancer" />
-                  <HomeSIngleService icon="5" title="Neurology Sargery" />
-                  <HomeSIngleService icon="6" title="Allergic Issue" />
+                  <HomeSIngleService icon="4" title="Gene identification" />
+                  <HomeSIngleService icon="4" title="Classification of cancer" />
+                  <HomeSIngleService icon="4" title="Reduce manual work with tech" />
+                  <HomeSIngleService icon="4" title="Increase life expectancy" />
+                  <HomeSIngleService icon="4" title="Prediction with ML algorithm" />
+                  <HomeSIngleService icon="4" title="Crucial role in treatment" />
 
                </div>
             </div>

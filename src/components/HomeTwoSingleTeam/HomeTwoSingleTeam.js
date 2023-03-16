@@ -9,7 +9,7 @@ const HomeTwoSingleTeam = ({image}) => {
                   <img src={`img/team/team-member-${image}.jpg`} alt=""/>
                </div>
                <div className="team-author-info">
-                  <span>Founder</span>
+                  <span>Fhhgfj</span>
                   <h6>Rosalina D. Williamson</h6>
                </div>
             </div>

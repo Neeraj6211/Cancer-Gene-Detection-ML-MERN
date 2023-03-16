@@ -39,27 +39,7 @@ const HomeHeader = () => {
                      </div>
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">
                         <div className="header-right f-right">
-                           <div className="header-lang f-right pos-rel d-none d-lg-block">
-                              <div className="lang-icon">
-                                 <img src="img/icon/lang.png" alt=""/>
-                                    <span>EN<i className="fas fa-angle-down"></i></span>
-                              </div>
-                              <ul className="header-lang-list">
-                                 <li><a href="#">USA</a></li>
-                                 <li><a href="#">UK</a></li>
-                                 <li><a href="#">CA</a></li>
-                                 <li><a href="#">AU</a></li>
-                              </ul>
-                           </div>
-                           <div className="header-social-icons f-right d-none d-xl-block">
-                              <ul>
-                                 <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                 <li><a href="#"><i className="fab fa-behance"></i></a></li>
-                                 <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                                 <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
-                                 <li><a href="#"><i className="fab fa-pinterest"></i></a></li>
-                              </ul>
-                           </div>
+                           
                         </div>
                         <div className="header__menu f-right">
                            <nav id="mobile-menu">

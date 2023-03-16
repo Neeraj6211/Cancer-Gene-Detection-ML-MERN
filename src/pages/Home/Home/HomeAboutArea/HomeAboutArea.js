@@ -23,18 +23,19 @@ const HomeAboutArea = () => {
                      <div className="about-right-side pt-55 mb-30">
                         <div className="about-title mb-20">
                            <h5>About Us</h5>
-                           <h1>Short Story About MediDove Clinic.</h1>
+                           <h1> Collaboration of medicine and technology </h1>
                         </div>
                         <div className="about-text">
-                           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                              cupidatat non proident, sunt in culpa qui officia.</p>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
+                           <p>Cancer is a deadly disease that results from the abnormal growth of the cells usually damaged
+                              cells and later spread in different parts of the body. Cells growth is caused because of
+                              certain gene mutation which they undergro. </p>
+                           <p>Inorder to detect cancer and stop its growth,identification of that gene mutation is needed 
+                              which require manula labour of seperate testing. If detected earlier, one can stop as well 
+                              as treat cancer leading to the increment of the life of patient. With ML algorithm we will 
+                              be able to predict those mutations in gene who are responsible for growth of cancerous cells, 
+                              reducing the burden of pathologists/oncologist and give a hope of life to the deing patients.</p><br/>
                         </div>
-                        <div className="about-author d-flex align-items-center">
+                        {/* <div className="about-author d-flex align-items-center">
                            <div className="author-ava">
                               <img src="img/about/author-ava.png" alt=""/>
                            </div>
@@ -42,7 +43,7 @@ const HomeAboutArea = () => {
                               <h4>Rosalina D. Williamson</h4>
                               <h6>founder</h6>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>

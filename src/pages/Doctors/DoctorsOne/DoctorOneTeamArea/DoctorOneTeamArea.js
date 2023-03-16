@@ -22,16 +22,12 @@ const DoctorOneTeamArea = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-5">
-                            <div className="section-button text-end d-none d-lg-block pt-80">
-                                <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Make Appointment</Link>
-                            </div>
-                        </div>
+                    
                     </div>
                     <div className="row">
-                        <HomeSingleTeam image="1" title="Rosalina D. Williamson" subtitle="Founder" />
-                        <HomeSingleTeam image="2" title="Diconda PIran Will" subtitle="dentist" />
-                        <HomeSingleTeam image="3" title="Hulk M. Kenbon" subtitle="neurologist" />
+                        <HomeSingleTeam image="" title="" subtitle="" />
+                        <HomeSingleTeam image="2" title="Dr. Rajeshwari Goudar" subtitle="DEAN SCET / Project Guide" />
+                        <HomeSingleTeam image="" title="" subtitle="neurologist" />
                         <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle="Consultant" />
                         <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle="dentist" />
                         <HomeSingleTeam image="6" title="Phumdon H. Norman" subtitle="neurologist" />
