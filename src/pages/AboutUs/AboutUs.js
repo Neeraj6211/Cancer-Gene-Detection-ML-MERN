@@ -14,7 +14,7 @@ const AboutUs = () => {
    return (
       <>
          <HomeHeader/>
-         <CommonPageHeader title="About Us" subtitle="About" />
+         {/* <CommonPageHeader title="About Us" subtitle="About" /> */}
          <AboutArea/>
          <AboutCounter/>
          <AboutAppoinment/>

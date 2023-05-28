@@ -11,7 +11,7 @@ const HomeHeader = () => {
    return (
       <>
          <header>
-            <div className="top-bar d-none d-md-block">
+            {/* <div className="top-bar d-none d-md-block">
                <div className="container">
                   <div className="row d-flex align-items-center">
                      <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
@@ -27,7 +27,7 @@ const HomeHeader = () => {
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
 
             <div className={stickyMenu ? "header-menu-area sticky_menu" : "header-menu-area"}>
                <div className="container menu_wrapper">
@@ -44,67 +44,20 @@ const HomeHeader = () => {
                         <div className="header__menu f-right">
                            <nav id="mobile-menu">
                               <ul>
-                                 <li><Link to="/">Home +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/">Home style 1</Link></li>
-                                       <li><Link to="/homeTwo">Home style 2</Link></li>
-                                       <li><Link to="/homeThree">Home style 3</Link></li>
-                                       <li><Link to="/homeFour">Home style 4</Link></li>
-                                       <li><Link to="/homeFive">Home style 5</Link></li>
-                                    </ul>
+                                 <li><Link to="/">Home</Link>
+                          
                                  </li>
-                                 <li><Link to="/services">Department +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/services">Services 01</Link></li>
-                                       <li><Link to="/servicesTwo">Services 02</Link></li>
-                                       <li><Link to="/servicesDetails">Services Details</Link></li>
-                                    </ul>
+                                 <li><Link to="/about">About</Link></li>
+                                  
+                                 
+                                 <li><Link to="/doctors">Team</Link>
+                              
                                  </li>
-                                 <li><Link to="/doctors">Doctors +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/doctors">Doctors 01</Link></li>
-                                       <li><Link to="/doctorsTwo">Doctors 02</Link></li>
-                                       <li><Link to="/doctorDetails">Doctors Details</Link></li>
-                                    </ul>
+                              
+                                 <li><Link to="/blogs">Blogs</Link>
+                           
                                  </li>
-                                 <li><Link to="/shop">Shop</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/shop">Shop Page</Link></li>
-                                       <li><Link to="/shopDetails">Shop Details</Link></li>
-                                       <li><Link to="/shoppingCart">Shopping Cart</Link></li>
-                                       <li><Link to="/checkout">Checkout</Link></li>
-                                       <li><Link to="/wishList">Wishlist</Link></li>
-                                       <li><Link to="/login">Login</Link></li>
-                                       <li><Link to="/register">Register</Link></li>
-                                    </ul>
-                                 </li>
-                                 <li><Link to="/blogs">News +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/blogs">Blog Right Sidebar</Link></li>
-                                       <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
-                                       <li><Link to="/blogNoSideBar">Blog No Sidebar</Link></li>
-                                       <li><Link to="/blogTwoColumn">Blog 2 Column</Link></li>
-                                       <li><Link to="/blogTwoMasonry">Blog 2 Col Masonry</Link></li>
-                                       <li><Link to="/blogThreeColumn">Blog 3 Column</Link></li>
-                                       <li><Link to="/blogThreeColMasonry">Blog 3 Col Masonry</Link></li>
-                                       <li><Link to="/blogDetails">Blog Details</Link></li>
-                                       <li><Link to="/blogDetailsLeftSidebar">Details Left Sidebar</Link></li>
-                                       <li><Link to="/blogDetailsAudio">Details Audio</Link></li>
-                                       <li><Link to="/blogDetailsVideo">Details Video</Link></li>
-                                       <li><Link to="/blogDetailsGallery">Details Gallery</Link></li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="#">Pages +</a>
-                                    <ul className="submenu">
-                                       <li><Link to="/about">About</Link></li>
-                                       <li><Link to="/appoinment">Appoinment</Link></li>
-                                       <li><Link to="/portfolioTwoColumn">Portfolio 2 column</Link></li>
-                                       <li><Link to="/portfolioThreeColumn">Portfolio 3 column</Link></li>
-                                       <li><Link to="/portfolioSlider">Portfolio Slider</Link></li>
-                                       <li><Link to="/contact">Contact</Link></li>
-                                       <li><Link to="/notMatch">404 page</Link></li>
-                                    </ul>
-                                 </li>
+            
                               </ul>
                            </nav>
                         </div>
