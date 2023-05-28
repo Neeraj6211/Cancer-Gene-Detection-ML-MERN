@@ -8,7 +8,7 @@ const VideoPopup = ({videoId}) => {
     const { isOpen, setIsOpen } = popupValue
     return (
         <>
-            <ModalVideo channel=' ' autoplay isOpen={isOpen}
+            <ModalVideo channel='https://www.youtube.com/watch?v=KMkmkpitAH0' autoplay isOpen={isOpen}
                 videoId={videoId} onClose={() => setIsOpen(false)} />
         </>
     );

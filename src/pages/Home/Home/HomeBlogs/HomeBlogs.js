@@ -37,13 +37,7 @@ const HomeBlogs = () => {
                   <HomeSingleBlogLeftSide1 image="2" />
                   <HomeSingleBlogLeftSide2 image="3" />
 
-                  <div className="col-xl-4 col-lg-12 col-md-12">
-               
-                     <div className="mk-call-btn f-right mb-30">
-                        <Link to="/contact" className="primary_btn btn-icon btn-icon-green ml-0">
-                           <span><i className="fas fa-phone"></i></span>make call</Link>
-                     </div>
-                  </div>
+                  
                </div>
             </div>
          </section>
