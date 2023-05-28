@@ -1,40 +1,65 @@
 import React from 'react';
 
 const ContactArea = () => {
-    return (
-        <>
-            <section className="contact-area pt-120 pb-90" data-background="assets/img/bg/bg-map.png">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-4">
-                            <div className="contact text-center mb-30">
-                                <i className="fas fa-envelope"></i>
-                                <h3>Mail Here</h3>
-                                <p>Admin@BasicTheme.com</p>
-                                <p>Info@Themepur.com</p>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-4">
-                            <div className="contact text-center mb-30">
-                                <i className="fas fa-map-marker-alt"></i>
-                                <h3>Visit Here</h3>
-                                <p>27 Division St, New York, NY 10002,
-                                    Jaklina, United Kingpung</p>
-                            </div>
-                        </div>
-                        <div className="col-xl-4  col-lg-4 col-md-4 ">
-                            <div className="contact text-center mb-30">
-                                <i className="fas fa-phone"></i>
-                                <h3>Call Here</h3>
-                                <p>+8 (123) 985 789</p>
-                                <p>+787 878897 87</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    );
+  // Randomly generated analysis results (for demonstration)
+  const analysisResults = {
+    cancerGenes: ['Gene A', 'Gene B', 'Gene C'],
+    mutations: ['Mutation 1', 'Mutation 2', 'Mutation 3'],
+    visualizations: [
+      <div key="1" className="visualization-container">
+        {/* Sample visualization component 1 */}
+        <p>Visualization 1</p>
+      </div>,
+      <div key="2" className="visualization-container">
+        {/* Sample visualization component 2 */}
+        <p>Visualization 2</p>
+      </div>,
+    ],
+  };
+
+  const renderVisualizations = () => {
+    return analysisResults.visualizations.map((visualization, index) => (
+      <div key={index} className="visualization-container">
+        {visualization}
+      </div>
+    ));
+  };
+
+  return (
+    <div>
+      <h2>Results and Reporting</h2>
+
+      <div>
+        <h3>Summary of Findings</h3>
+        <p>Cancer Genes: {analysisResults.cancerGenes.join(', ')}</p>
+        <p>Mutations: {analysisResults.mutations.join(', ')}</p>
+        {/* Additional summary information */}
+      </div>
+
+      <div>
+        <h3>Visualizations</h3>
+        {renderVisualizations()}
+      </div>
+
+      <div>
+        <h3>Detailed Information</h3>
+        {/* Detailed information about cancer genes */}
+        {/* Additional information */}
+      </div>
+
+      <div>
+        <h3>Interpretation and Implications</h3>
+        {/* Interpretation and insights */}
+        {/* Additional implications */}
+      </div>
+
+      <div>
+        <h3>Reporting Options</h3>
+        {/* Reporting options */}
+        {/* e.g., PDF export, CSV export */}
+      </div>
+    </div>
+  );
 };
 
 export default ContactArea;

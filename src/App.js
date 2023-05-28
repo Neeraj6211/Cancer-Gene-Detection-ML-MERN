@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import GeneDetect from './pages/GeneDetect/GeneDetect';
+import Chart from './pages/Chart/Chart';
 import ScrollTop from './components/ScrollTop';
 import AllContext from './context/AllContext';
 import AboutUs from './pages/AboutUs/AboutUs';
@@ -48,6 +50,8 @@ function App() {
         <BrowserRouter>
           <ScrollTop />
           <Routes>
+          <Route path="/chart" element={<Chart />} />
+          <Route path="/genedetect" element={<GeneDetect />} />
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/homeTwo" element={<HomeTwo />} />

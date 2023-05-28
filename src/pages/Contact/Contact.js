@@ -10,10 +10,10 @@ const Contact = () => {
     return (
         <>
             <HomeHeader/>
-            <CommonPageHeader title="Contact Us" subtitle="Contact" />
+            {/* <CommonPageHeader title="Contact Us" subtitle="Contact" /> */}
             <ContactArea/>
-            <ContactFormArea/>
-            <ContactMap/>
+            {/* <ContactFormArea/>
+            <ContactMap/> */}
             <Footer/>
         </>
     );
