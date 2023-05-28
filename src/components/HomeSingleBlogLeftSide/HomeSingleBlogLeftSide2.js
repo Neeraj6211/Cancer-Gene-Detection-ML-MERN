@@ -10,14 +10,9 @@ const HomeSingleBlogLeftSide2 = ({image}) => {
                   <img src={`img/blog/blog-thumb-${image}.jpg`} alt=""/>
                </div>
                <div className="latest-news-content">
-                  <div className="news-meta mb-10">
-                     <span><Link to="/blogDetails" className="news-tag">Medical,</Link></span>
-                     <span><Link to="/blogDetails" className="news-tag">Medicine</Link></span>
-                  </div>
-                  <h3><a href="https://google.com">222222222222  ons ectetur adidis dicolo wiran.</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                     magna
-                     aliqua. Ut enim ad minim veniam.</p>
+               
+                  <h3><a href="https://www.msn.com/en-us/health/other/artificial-intelligence-model-to-help-scientists-predict-whether-breast-cancer-will-spread/ar-AA1bO5nR">AI model to help scientists predict whether breast cancer will spread.</a></h3>
+                  <p>Oncologists in the U.K. have developed an AI model to help predict whether aggressive forms of breast cancer will ....</p>
                </div>
             </div>
          </div>

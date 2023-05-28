@@ -18,7 +18,7 @@ const HomeHeroSingleSlide = ({ bg_className}) => {
                            <p>A Platform that will identify cancer causing gene using Machine learning.</p>
                         </div>
                         <div className="hero-slider-btn">
-                           <Link to="/genedetect" className="primary_btn btn-icon ml-0"><span>+</span>Know More</Link>
+                           <Link to="/genedetect" className="primary_btn btn-icon ml-0"><span>+</span>Detect a gene</Link>
 
                            <button onClick={() => setIsOpen(true)}
                               className="play-btn popup-video"><i className="fas fa-play"></i></button>
