@@ -77,7 +77,7 @@ const HomeFooter = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright text-center">
-                                    <p className="white-color">Copyright by@ BasicTheme - 2022</p>
+                                    <p className="white-color">Copyright @ MITAOE Students Neeraj | Prathamesh | Nausheen | Sharwari</p>
                                 </div>
                             </div>
                         </div>

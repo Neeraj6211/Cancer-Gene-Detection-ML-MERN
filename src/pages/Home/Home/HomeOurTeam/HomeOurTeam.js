@@ -25,10 +25,12 @@ const HomeOurTeam = () => {
                   
                </div>
                <div className="row">
-                  <HomeSingleTeam image="2" title="Dr. Rajeshwari Goudar" subtitle="DEAN SCET | Project Guide" />
+                  <HomeSingleTeam image="2" title="Dr. Rajeshwari Goudar" subtitle="DEAN SCE | Project Guide" />
                   <HomeSingleTeam image="4" title="Neeraj Kumar" subtitle="TY Btech" />
-                  <HomeSingleTeam image="5" title="Nausheen Aftab" subtitle="TY Btech" />
                   <HomeSingleTeam image="6" title="Prathamesh Shirnath" subtitle="TY Btech" />
+                  <HomeSingleTeam image="5" title="Nausheen Aftab" subtitle="TY Btech" />
+                  <HomeSingleTeam image="5" title="Sharwari Chandurkar" subtitle="TY Btech" />
+                  
 
                </div>
             </div>

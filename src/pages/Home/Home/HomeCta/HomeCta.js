@@ -12,11 +12,11 @@ const HomeCta = () => {
 								<div className="section-title pos-rel mb-50">
 									<div className="section-text section-text-white pos-rel">
 										<h5>Stay healthy & strong to enjoy life</h5>
-										<h1 className="white-color">Trust Us To Be There To Help All & Make Things Well Again.</h1>
+										<h1 className="white-color">"Unveiling the mysteries of cancer through gene detection"</h1>
 									</div>
 								</div>
 								<div className="section-button section-button-left">
-									<Link to="/appoinment" className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>get a consultant</Link>
+									<Link to="/genedetect" className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>Detect a gene</Link>
 								</div>
 							</div>
 						</div>
