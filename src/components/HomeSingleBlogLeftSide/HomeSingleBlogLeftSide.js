@@ -10,8 +10,7 @@ const HomeSingleBlogLeftSide = ({image}) => {
                   <img src={`img/blog/blog-thumb-${image}.jpg`} alt=""/>
                </div>
                <div className="latest-news-content">
-         
-                  <h3><Link to="https://www.msn.com/en-in/health/medical/world-blood-cancer-day-7-early-warning-signs-of-blood-cancer-you-should-know-about/ar-AA1bNA0v">7 early warning signs of blood cancer you should know about</Link></h3>
+               <h3><a href="https://www.msn.com/en-in/health/medical/world-blood-cancer-day-7-early-warning-signs-of-blood-cancer-you-should-know-about/ar-AA1bNA0v">7 early warning signs of blood cancer you should know about.</a></h3>
                   <p>World Blood Cancer Day: 7 early warning signs of blood cancer you should know about</p>
                </div>
             </div>

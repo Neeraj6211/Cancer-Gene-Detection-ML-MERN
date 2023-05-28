@@ -28,19 +28,14 @@ const HomeBlogs = () => {
                      </div>
                   </div>
 
-                  <div className="col-xl-6 col-lg-5 d-none d-lg-block">
-                     <div className="section-button home_blog_btn text-end pt-80">
-                        <Link to="/blogs" className="primary_btn btn-icon ml-0">
-                           <span>+</span>our blog</Link>
-                     </div>
-                  </div>
+               
                </div>
 
                <div className="row">
 
                   <HomeSingleBlogLeftSide image="1" />
                   <HomeSingleBlogLeftSide1 image="2" />
-                  <HomeSingleBlogLeftSide2 image="2" />
+                  <HomeSingleBlogLeftSide2 image="3" />
 
                   <div className="col-xl-4 col-lg-12 col-md-12">
                      {/* <div className="recent-news-list mb-120">
