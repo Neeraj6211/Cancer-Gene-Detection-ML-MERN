@@ -10,14 +10,9 @@ const HomeSingleBlogLeftSide1 = ({image}) => {
                   <img src={`img/blog/blog-thumb-${image}.jpg`} alt=""/>
                </div>
                <div className="latest-news-content">
-                  <div className="news-meta mb-10">
-                     <span><Link to="/blogDetails" className="news-tag">Medical,</Link></span>
-                     <span><Link to="/blogDetails" className="news-tag">Medicine</Link></span>
-                  </div>
-                  <h3><Link to="/blogDetails">1111111t amet, cons ectetur adidis dicolo wiran.</Link></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                     magna
-                     aliqua. Ut enim ad minim veniam.</p>
+         
+                  <h3><a href="https://www.msn.com/en-in/news/other/10-unusual-symptoms-of-ovarian-cancer-you-should-never-ignore/ar-AA1bN52y">10 unusual symptoms of ovarian cancer you should never ignore</a></h3>
+                  <p>Ovarian cancer, the silent killer, can go unnoticed as it has hardly any signs and symptoms in the earlier stages. The symptoms appear mainly .....</p>
                </div>
             </div>
          </div>
